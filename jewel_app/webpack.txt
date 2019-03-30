@@ -1,0 +1,39 @@
+// webpack 配置 
+entry  	项目入口文件 告诉webpack 打包那个文件
+output 	webpack 打包文件输出路径
+pluging 插件配置
+devServer  启动html 页面服务配置
+module  配置第三方模块管理
+有个rules 属性, 这个rules 属性是个数组,这个数组中存放了，所有的第三方文件和匹配的处理规则
+
+//
+
+
+Vue-resource 使用方法
+Base 基础设置
+// 设置 请求 基础路径 例: http://vue.studyit.io/
+Vue.http.options.root = 'http://vue.studyit.io/';
+// 设置请求 headers 中的公共参数
+Vue.http.options.headers.common = 'author';
+
+
+// 1. get
+this.$http.get("http://vue.studyit.io/api/getnewslist").then(result => {
+                    console.log(result);
+                })
+// 2. post
+this.$http.post(url,data).then(result => {
+    console.log(result);
+});
+
+// 3. jsonp
+this.$http.jsonp(this.apiUrl).then(function(response){
+        this.$set('gridData', response.data)
+    })
+
+// 3. jsonp
+ vm.$http.put(this.apiUrl + '/' + vm.item.customerId, vm.item)
+        .then((response) => {
+            vm.getCustomers()
+        })
+
