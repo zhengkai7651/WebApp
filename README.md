@@ -2,7 +2,7 @@
 ## 使用Vue+VueRouter+Vuex+Axios 开发
 ## UI 使用Mint-ui ,MUI
 
-![示例图](https://github.com/zhengkai7651/WebApp/blob/master/jewel_app/app_home.png)
+![示例图](https://github.com/zhengkai7651/WebApp/blob/master/app_home.png)
 
 > A Vue.js WebApp project
 
