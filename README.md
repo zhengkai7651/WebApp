@@ -1,6 +1,10 @@
-# diamond_app
+## 一个珠宝商城的WebApp
+## 使用Vue+VueRouter+Vuex+Axios 开发
+## UI 使用Mint-ui ,MUI
 
-> A Vue.js project
+![示例图](https://github.com/zhengkai7651/WebApp/blob/master/jewel_app/app_home.png)
+
+> A Vue.js WebApp project
 
 ## Build Setup
 
@@ -8,14 +12,9 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8091
 npm run dev
 
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
